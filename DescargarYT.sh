@@ -20,8 +20,8 @@ ruta_escritorio=$(xdg-user-dir DESKTOP) #es la ruta de tu escritorio sin la / al
 
 # VARIABLES PARA LA ACTUALIZAION CON GITHUB
 NombreScriptActualizar="DescargarYT.sh" #contiene el nombre del script para poder actualizar desde github
-DireccionGithub="https://github.com/sukigsx/DescargasYT.git" #contiene la direccion de github para actualizar el script
-nombre_carpeta_repositorio="DescargasYT" #poner el nombre de la carpeta cuando se clona el repo para poder eliminarla
+DireccionGithub="https://github.com/sukigsx/DescargarYT.git" #contiene la direccion de github para actualizar el script
+nombre_carpeta_repositorio="DescargarYT" #poner el nombre de la carpeta cuando se clona el repo para poder eliminarla
 
 #VARIABLES DE SOFTWARE NECESARIO
 # Asociamos comandos con el paquete que los contiene [comando a comprobar]="paquete a instalar"
