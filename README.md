@@ -1,9 +1,9 @@
 # DescargarYT
 Utilidad para descargar audio video y listas de reproduccion de youtube
 
-# 🚀 Descargador de YouTube Pro (FZF)
+# 🚀 Descargador de YouTube y derivados.
 
-Una herramienta interactiva para la terminal de Linux que automatiza la descarga de videos y listas de reproducción de YouTube con menús visuales. Diseñado para ser rápido, eficiente y evitar el uso de comandos largos de memoria.
+Una herramienta interactiva para la terminal de Linux que automatiza la descarga de videos y listas de reproducción de YouTube y derivados con menús visuales. Diseñado para ser rápido, eficiente y evitar el uso de comandos largos de memoria.
 
 Diseñado originalmente por **SUKIGSX**.
 
@@ -51,7 +51,7 @@ sudo apt update && sudo apt install yt-dlp fzf ffmpeg
 
 1. **Clona este repositorio o descarga el script:**
    ```bash
-   git clone https://github.com/sukigsx/DescargarYT
+   git clone https://github.com/sukigsx/DescargarYT.git
    cd DescargarYT
    ```
 
