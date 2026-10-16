@@ -384,7 +384,7 @@ ES_LISTA=false
 if [[ "$URL" == *"list="* || "$URL" == *"playlist"* ]]; then
     echo -e "\n${amarillo}[!]${borra_colores} Se ha detectado una Lista de Reproducción en la URL introducioda."
 
-    SELECCION_LISTA=$(echo -e "📦 Descargar la LISTA DE REPRODUCCIÓN COMPLETA\n🛑 Descargar ÚNICAMENTE EL VIDEO INDIVIDUAL" | fzf $FZF_ESTILO --header="» Selecciona qué deseas procesar:")
+    SELECCION_LISTA=$(echo -e "📦 Descargar la LISTA DE REPRODUCCIÓN COMPLETA\n🛑 Descargar ÚNICAMENTE EL VIDEO O AUDIO INDIVIDUAL" | fzf $FZF_ESTILO --header="» Selecciona qué deseas procesar:")
 
     if [ -z "$SELECCION_LISTA" ]; then
         echo ""
