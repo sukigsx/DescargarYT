@@ -56,7 +56,7 @@ Clonar el repositorio
 
 Descargar script con WGET
    ```
-   wget -O DescargarYT.sh https://raw.githubusercontent.com/sukigsx/DescargarYT/refs/heads/main/DescargarYT.sh
+   wget -O DescargarYT.sh https://raw.githubusercontent.com/sukigsx/DescargarYT/refs/heads/main/DescargarYT.sh && chmod +x DescargarYT.sh
    ```
 
 ---
