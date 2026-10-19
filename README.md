@@ -49,20 +49,14 @@ sudo apt update && sudo apt install yt-dlp fzf ffmpeg
 
 ## 🚀 Instalación y Uso
 
-1. **Clona este repositorio o descarga el script:**
-   ```bash
+Clonar el repositorio
+   ```
    git clone https://github.com/sukigsx/DescargarYT.git
-   cd DescargarYT
    ```
 
-2. **Dale permisos de ejecución al archivo:**
-   ```bash
-   chmod +x DescargarYT.sh
+Descargar script con WGET
    ```
-
-3. **Ejecuta el script:**
-   ```bash
-   ./DescargarYT.sh
+   wget -O DescargarYT.sh https://raw.githubusercontent.com/sukigsx/DescargarYT/refs/heads/main/DescargarYT.sh
    ```
 
 ---
