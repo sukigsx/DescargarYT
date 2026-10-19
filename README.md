@@ -50,14 +50,14 @@ sudo apt update && sudo apt install yt-dlp fzf ffmpeg
 ## 🚀 Instalación y Uso
 
 Clonar el repositorio
-   ```
-   git clone https://github.com/sukigsx/DescargarYT.git
-   ```
+```
+git clone https://github.com/sukigsx/DescargarYT.git
+```
 
 Descargar script con WGET
-   ```
-   wget -O DescargarYT.sh https://raw.githubusercontent.com/sukigsx/DescargarYT/refs/heads/main/DescargarYT.sh && chmod +x DescargarYT.sh
-   ```
+```
+wget -O DescargarYT.sh https://raw.githubusercontent.com/sukigsx/DescargarYT/refs/heads/main/DescargarYT.sh && chmod +x DescargarYT.sh
+```
 
 ---
 
@@ -65,6 +65,6 @@ Descargar script con WGET
 
 YouTube actualiza su plataforma constantemente, lo que puede romper el funcionamiento de las descargas de vez en cuando. Si el script falla al procesar una URL, actualiza el motor principal ejecutando:
 
-```bash
+```
 sudo yt-dlp -U
 ```
