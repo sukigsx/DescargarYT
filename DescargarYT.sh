@@ -1,10 +1,4 @@
 
-        [diff]="diff"
-        [sudo]="sudo"
-        [ping]="ping"
-        [xdg-user-dir]="xdg-user-dirs"
-
-        #requeridos para el script en si
         [fzf]="fzf"
         [ffmpeg]="ffmpeg"
         [yt-dlp]="yt-dlp"
@@ -15,8 +9,8 @@
 # con export son las variables necesarias para exportar al los siguientes script
 #variables para el menu_info
 
-export NombreScript="ppsskjhlkjhlkjh"
-export DescripcionDelScript="PRUEBA DE MEJORA"
+export NombreScript="DescargarYT"
+export DescripcionDelScript="Descargador de YouTube y derivados."
 export Correo="scripts@mbbsistemas.es"
 export Web="https://repositorio.mbbsistemas.es"
 export version="1.0"
@@ -30,9 +24,9 @@ ruta_ejecucion=$(dirname "$(readlink -f "$0")") #es la ruta de ejecucion del scr
 ruta_escritorio=$(xdg-user-dir DESKTOP) #es la ruta de tu escritorio sin la / al final
 
 # VARIABLES PARA LA ACTUALIZAION CON GITHUB
-NombreScriptActualizar="plpl.sh" #contiene el nombre del script para poder actualizar desde github
-DireccionGithub="https://github.com/sukigsx/pruebas.git" #contiene la direccion de github para actualizar el script
-nombre_carpeta_repositorio="plpl" #poner el nombre de la carpeta cuando se clona el repo para poder eliminarla
+NombreScriptActualizar="DescargarYT.sh" #contiene el nombre del script para poder actualizar desde github
+DireccionGithub="https://github.com/sukigsx/DescargarYT" #contiene la direccion de github para actualizar el script
+nombre_carpeta_repositorio="DescargarYT" #poner el nombre de la carpeta cuando se clona el repo para poder eliminarla
 
 # VARIABLES DE SOFTWARE NECESARIO
 # Asociamos comandos con los paquetes correspondientes.
@@ -41,21 +35,17 @@ nombre_carpeta_repositorio="plpl" #poner el nombre de la carpeta cuando se clona
 declare -A requeridos
 requeridos=(
     # Requeridos para poder actualizar
-    [git]="git"
-    [diff]="diff"
-    [sudo]="sudo"
-    [ping]="iputils-ping/iputils/iputils"
-    [curl]="curl"
-    [jq]="jq"
-    [nc]="netcat-openbsd/nc/openbsd-netcat"
-    [sed]="sed"
-    [ssh-copy-id]="openssh-client/openssh-clients/openssh"
-    [ssh-keygen]="openssh-client/openssh-clients/openssh"
-    [xdg-user-dir]="xdg-user-dirs"
+        [git]="git/git/git"
+        [diff]="diffutils/diffutils/diffutils"
+        [sudo]="sudo/sudo/sudo"
+        [ping]="iputils-ping/iputils/iputils/"
+        [xdg-user-dir]="xdg-user-dirs/xdg-user-dirs/xdg-user-dirs"
 
     # Requeridos para el script en si
-    [fzf]="fzf"
-    [awk]="gawk/gawk/gawk"
+        [fzf]="fzf/fzf/fzf"
+        [ffmpeg]="ffmpeg/ffmpeg/ffmpeg"
+        [yt-dlp]="yt-dlp/yt-dlp/yt-dlp"
+
 )
 ###########################
 ## FUNCIONES PRINCIPALES ##
